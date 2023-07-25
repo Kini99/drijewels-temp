@@ -1,0 +1,89 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Classic Plain Band",
+      "price": 3000,
+      "width": "5.5mm",
+      "weight": "4gm",
+      "color": "White",
+      "other": "Available in yellow, rose, white",
+      "categoryNumber": 25,
+      "category": "Men's Band",
+      "image_main": "https://drijewels.com/admin/uploads/image0-_59_.webp",
+      "image_slider": [
+        "https://drijewels.com/admin/uploads/image1-_23_.1664614658.webp",
+        "https://drijewels.com/admin/uploads/image2-_16_.1664614658.webp"
+      ],
+      "tags": "simple bands,bands,mens band"
+    },
+    {
+      "id": 3,
+      "name": "Diamond Mens Band",
+      "price": 4000,
+      "width": "7.4mm",
+      "weight": "4.45gm",
+      "color": "Yellow",
+      "other": "Available in yellow, rose, white",
+      "categoryNumber": 25,
+      "category": "Men's Band",
+      "image_main": "https://drijewels.com/admin/uploads/image7-_2_.webp",
+      "image_slider": "https://drijewels.com/admin/uploads/image11.3.1664615395.webp",
+      "tags": "mens ring"
+    },
+    {
+      "id": 4,
+      "name": "Love Watch Charm",
+      "price": 1999,
+      "width": "15mm",
+      "weight": "2.5gm",
+      "length": "2.5inch",
+      "color": "White",
+      "other": "Available in yellow, rose, white\r\n*This does not include watch with it",
+      "categoryNumber": 26,
+      "category": "Watch Accessories",
+      "image_main": "https://drijewels.com/admin/uploads/tinywow_DSC_3596-01_6774988.webp",
+      "image_slider": [
+        "https://drijewels.com/admin/uploads/tinywow_DSC_3596-01_6774988.1665817205.webp",
+        "https://drijewels.com/admin/uploads/tinywow_DSC_3607-01_6775002.1665817205.webp"
+      ],
+      "tags": "watch charms,watch accessories,watch jewellery"
+    },
+    {
+      "id": 5,
+      "name": "Solitaire Heart Ring ",
+      "price": 2500,
+      "width": "12mm",
+      "weight": "2.8gm",
+      "color": "White",
+      "other": "Available in yellow, rose, white\r\n*This does not include watch with it",
+      "categoryNumber": 27,
+      "category": "Rings",
+      "image_main": "https://drijewels.com/admin/uploads/tinywow_DSC_3534-01_6775224.webp",
+      "image_slider": [
+        "https://drijewels.com/admin/uploads/tinywow_DSC_3534-01_6775224.1665821139.webp",
+        "https://drijewels.com/admin/uploads/tinywow_DSC_3536-01_6776950.1665821139.webp",
+        "https://drijewels.com/admin/uploads/tinywow_DSC_3594-01_6776970.1665821139.webp"
+      ],
+      "tags": "heart ring,solitaire ring"
+    },
+    {
+      "id": 6,
+      "name": "Halo Baguette Necklace",
+      "price": 2000,
+      "width": "9.10mm",
+      "weight": "2gm",
+      "length": "15inches, 16inches, 18inches and 20inches (model in the picture is wearing 16 inches chain length)",
+      "color": "White",
+      "other": "Available in yellow, rose, white",
+      "categoryNumber": 28,
+      "category": "Necklace",
+      "image_main": "tinywow_DSC_1707-01 (1)_6777252.webp",
+      "image_slider": [
+        "https://drijewels.com/admin/uploads/tinywow_DSC_1707-01 (1)_6777252.1665821778.webp",
+        "https://drijewels.com/admin/uploads/tinywow_DSC_3649-01_6777220.1665821778.webp"
+      ],
+      "tags": "minimal necklace,9 to 5 work wear,office wear,dainty necklace"
+    }
+  ]
+}

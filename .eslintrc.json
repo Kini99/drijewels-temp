@@ -1,0 +1,27 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb-base", "prettier"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "no-unused-vars": 0,
+    "no-console": "warn",
+    "quotes": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/destructuring-assignment": "off",
+    "no-nested-ternary": "warn",
+    "react/prop-types": "off",
+    "no-underscore-dangle": "off",
+    "import/extensions": 0,
+    "import/no-unresolved": 0
+  }
+}
