@@ -77,6 +77,7 @@ const CategoryContent = () => {
         <CategoryWrapper>
           {collections.map((collection) => (
             <Link
+              component={RouterLink}
               to={`/collections/${collection.collectionNumber}`}
               key={collection._id}>
               <CategoryBox>

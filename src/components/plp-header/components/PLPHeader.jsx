@@ -25,6 +25,11 @@ const PLPHeader = ({ data, setSortObj, setPriceRange, priceRange }) => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
+  const separatorStyles = {
+    "& li + li::before": {
+      color: theme.palette.primary    },
+  };
+
   const [open, setOpen] = useState(false);
   const [openFilter, setOpenFilter] = useState(false);
 
@@ -49,7 +54,13 @@ const PLPHeader = ({ data, setSortObj, setPriceRange, priceRange }) => {
       <HeadingBox title={data?.name} />
       <ContentBox>
         {!isMobile && (
-          <Breadcrumbs aria-label="breadcrumb">
+          <Breadcrumbs aria-label="breadcrumb"     sx={{
+            width: "100%",
+            margin: "10px 0",
+            ".MuiBreadcrumbs-separator": {
+              color: "#000",
+            },
+          }}>
             <Link
               to="/store"
               component={RouterLink}
