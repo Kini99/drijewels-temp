@@ -35,7 +35,7 @@ const SidebarCat = ({ categories, collections, currentCat }) => (
         )}
       </Link>
     ))}
-    <Typography variant="h5" sx={{ padding: "2% 0" }}>
+    {/* <Typography variant="h5" sx={{ padding: "2% 0" }}>
       All Collections
     </Typography>
     {collections.map((collection, index) => (
@@ -54,7 +54,7 @@ const SidebarCat = ({ categories, collections, currentCat }) => (
           <Typography sx={{ padding: "1% 0" }}>{collection.name}</Typography>
         )}
       </Link>
-    ))}
+    ))} */}
   </SideBarWrapper>
 );
 
