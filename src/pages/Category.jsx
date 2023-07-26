@@ -116,11 +116,11 @@ const Category = () => {
           priceRange={priceRange}
         />
         <Box sx={{ width: "100%", display: "flex" }}>
-          <SidebarCat
+        {Array.isArray(categories)&&Array.isArray(collections)&& <SidebarCat
             categories={categories}
             collections={collections}
             currentCat={data?.name}
-          />
+          />}
           <PLPComponent
             data={componentData}
             setPage={setPage}
