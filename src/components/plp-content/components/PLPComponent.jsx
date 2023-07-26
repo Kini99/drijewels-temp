@@ -1,11 +1,15 @@
 import { Link as RouterLink } from "react-router-dom";
 import { Box, Typography, Pagination, Link } from "@mui/material";
+import CircularProgress from "@mui/material/CircularProgress";
 import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
 import { PLPWrapper, ProductsWrapper, ProductBox } from "../styles";
 
 import Loading from "../../loading/Loading";
 
 const PLPComponent = ({ data, setPage }) => {
+  if (!data || !data.productsData) {
+    return <CircularProgress disableShrink />;
+  }
   const totalPages = Math.ceil(+(data.productsData.total / 12));
   return (
     <PLPWrapper className={"content"}>

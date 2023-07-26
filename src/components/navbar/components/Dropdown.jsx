@@ -46,7 +46,7 @@ const DropdownMenu = () => {
               {category.name}
             </MenuItem>
           ))}
-        {/* {Array.isArray(collections) &&
+        {Array.isArray(collections) &&
           collections.map((collection, index) => (
             <MenuItem
               key={index}
@@ -56,7 +56,7 @@ const DropdownMenu = () => {
               onClick={handleClose}>
               {collection.name}
             </MenuItem>
-          ))} */}
+          ))}
       </Menu>
     </>
   );
