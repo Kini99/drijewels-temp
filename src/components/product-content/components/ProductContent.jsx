@@ -103,7 +103,7 @@ const ProductContent = ({ product, categoryName }) => {
           <Button
             variant="contained"
             fullWidth
-            href={`https://api.whatsapp.com/send?phone=+917021882689&text=Hi Drishti! I'd love to buy ${product.name}. Could you please share more details or connect with me for further assistance? Thanks! Link: https://drijewels.com/products/${product._id}`}
+            href={`https://api.whatsapp.com/send?phone=+917021882689&text=Hi Drishti! I'd love to buy ${product.name}. Could you please share more details or connect with me for further assistance? Thanks! Link: https://www.drijewels.com/products/${product._id}`}
             target="_blank"
             rel="noopener noreferrer"
             sx={{ margin: "15px 0" }}>
